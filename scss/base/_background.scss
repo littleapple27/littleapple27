@@ -1,0 +1,18 @@
+.lad-gradient {
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .bg-rgba-lite-white {
+    background: $green;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.5));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .bg-lad-green {
+    background-color: $lad-green;
+  }
+
+ 
+

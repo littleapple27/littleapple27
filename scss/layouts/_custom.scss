@@ -1,0 +1,147 @@
+body {
+  overflow-x: hidden;
+}
+
+#featured-in {
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  //background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: $green;
+}
+
+.hr {
+  border-top: 5px solid $lad-green !important;
+  width: 35%;
+  opacity: 0.75 !important;
+}
+
+.underline {
+   border-top: 5px solid $lad-green !important;
+   opacity: 0.75 !important;
+   margin: 0 8rem;
+}
+
+.divider {
+   width: 129px;
+   height: 5px;
+   background: $lad-green;
+}
+
+.hr-white {
+  border-top: 10px solid #f9f9f9 !important;
+  width: 35%;
+}
+
+.resp-icons i {
+  @include font-size(3.25rem);
+}
+
+span.highlight-green {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0) 45%,
+    $lad-green-alpha 45%,
+    $lad-green-alpha
+  );
+}
+
+// #dancing-avatar {
+//   position: relative;
+//   z-index: 2;
+//   margin-bottom: -5rem;
+// }
+
+// .slanted-masthead {
+//   background-color: #eef1e9;
+//   height: 500px;
+//   -webkit-clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
+//   clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
+// }
+
+#masthead, .bg-light-green {
+  padding: 4rem 0;
+// background: linear-gradient(165deg, #eef1e9 50%, #eef1e9 50%);
+background-color: #eef1e9;
+}
+
+// section {
+//    height: 100vh;
+// }
+
+#about-img-m {
+  position: absolute;
+  margin-left: -4rem;
+}
+
+@include media-breakpoint-up(md) { 
+  .ms-md-nx {
+    margin-left: -6rem!important;
+  }
+ }
+
+ .form-input {
+   margin-bottom: 1rem!important;
+ }
+
+ .card-footer {
+   border: 0!important;
+   background-color: transparent!important;
+ }
+
+ #form-message-warning, 
+ #form-message-success {
+  display: none; 
+}
+
+footer > p {
+  font-size: .65rem;
+}
+
+#scrollButton {
+  display: none;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+  z-index: 99;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background:  transparent;
+  text-decoration: none;
+}
+
+#scrollButton  {
+  i, div {
+    color: $lad-green-alpha;  
+  }
+  &:hover i, div {
+    color: $lad-green;
+  }
+  div {
+    @include font-size(0.75rem);
+  }
+  i {
+    @include font-size(1rem);
+  }
+}
+
+// #top-of-page {
+//   color: $lad-green-alpha;
+//   @include font-size(0.6rem);
+//   &:hover {
+//     color: $lad-green;
+//   }
+// }
