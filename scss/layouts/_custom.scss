@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
 }
@@ -6,6 +9,9 @@ body {
   font-size: .75rem;
   font-weight: 700;
   letter-spacing: 1px;
+  a:hover {
+    color: #987DC0!important; 
+  }
 }
 
 #featured-in {
