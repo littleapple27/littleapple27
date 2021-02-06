@@ -103,9 +103,9 @@
     </style>
   </head>
 
-  <body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100" id="top-of-page">
     <header id="menu">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container">
           <a
             class="navbar-brand d-flex align-items-center"
@@ -165,12 +165,13 @@
 
     <main>
       <a
+        href="#top-of-page"
         class="text-center"
         onclick="topFunction()"
         id="scrollButton"
         title="Go to top"
       >
-        <div>Top of Page</div>
+        <div class="mb-n3">Scroll to Top</div>
         <i class="fas fa-chevron-circle-up text-green"></i>
       </a>
 
@@ -181,11 +182,9 @@
               class="col-md-8 order-2 order-md-1 col-lg-5 offset-lg-2 text-center text-md-start wow animate__fadeIn"
               data-wow-duration="2s"
             >
-              <h1 class="display-1">Hello.</h1>
-              <p class="lead">
-                I am a Web Developer<sup class="ms-1 text-green"
-                  ><i class="fas fa-asterisk"></i
-                ></sup>
+              <h1 class="display-1">Hello,</h1>
+              <p class="typewrite lead display-6" data-period="2000" data-type='[ "I am a web developer*", "I am a mother.", "I am a first mate.","I am a hiker.", "I am a bird watcher.", "I am many things." ]'>
+                    <span class="wrap"></span>
               </p>
               <div class="divider mx-auto mx-md-0"></div>
               <p class="small mt-3">
@@ -470,7 +469,7 @@
         >
           <h5 class="text-center mt-4 display-5">Connect with Me</h5>
           <div class="divider mx-auto my-4"></div>
-          <p>
+          <p class="typewrite">
             Experience my coding journey. View my projects on GitHub. Connect
             with me on LinkedIn.
           </p>
@@ -563,14 +562,17 @@
               >
             </div>
             <div class="row mt-n5">
-            <div class="offset-8 col-4 d-flex align-baseline justify-content-end ">
-              <img
-                src="img/avatarwithapple.png"
-                class="img-fluid"
-                alt="Little apple avatar eating an apple."
-              />
+              <div
+                class="d-flex align-baseline justify-content-end position-relative"
+              >
+                <img
+                  src="img/avatarwithapple.png"
+                  alt="Little apple avatar eating an apple."
+                  width="100px"
+                  height="auto"
+                />
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </section>
