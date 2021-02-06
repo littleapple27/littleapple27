@@ -1,3 +1,16 @@
+@import "_variables";
+
 .text-green {
     color: $lad-green;
+}
+
+.text-pink-light {
+    color: $lad-pink-light;
+}
+
+.text-pink-dark {
+    color: $lad-pink-dark;
+}
+.font-weight-900 {
+    font-weight: 900;
 }

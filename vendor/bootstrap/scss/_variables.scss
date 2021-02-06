@@ -44,6 +44,7 @@ $cyan:    #0dcaf0 !default;
 
 //Custom Styles 
 $lad-green: #7fa646;
+$lad-pink-dark: #a6467f;
 
 // scss-docs-start colors-map
 $colors: (
@@ -81,7 +82,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "pink-dark":  $lad-pink-dark
 ) !default;
 // scss-docs-end theme-colors-map
 

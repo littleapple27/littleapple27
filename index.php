@@ -107,7 +107,7 @@
                 <p class="lead text-white">I am a Full Stack Developer.</p>
                 <hr />
                 <p>
-                    <a href="#" class="btn btn-primary my-2"><i class="far fa-envelope me-2"></i>Email Me</a>
+                    <a href="#" class="btn bg-pink-dark my-2"><i class="far fa-envelope me-2"></i>Email Me</a>
                     <a href="#" class="btn btn-secondary my-2">View Projects</a>
                 </p>
             </div>
