@@ -1,7 +1,13 @@
-.navbar-nav .nav-link {
-    color: #a6467f!important;
+.navbar-nav .nav-link span {
+  background-image: linear-gradient(120deg, $lad-yellow-light 0%, $lad-yellow-light 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
     font-weight: 900!important;
     &:hover {
-      color: #C07DA5!important;
+      background-size: 100% 88%;
     }
   }
+
+

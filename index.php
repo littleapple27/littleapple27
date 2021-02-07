@@ -87,8 +87,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup panel">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Resume</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#"><span></span>Portfolio</a>
+                        <a class="nav-link" href="#"><span>Resume</span></a>
+                        <a class="nav-link" href="#"><span>Contact</span></a>
                     </div>
                 </div>
             </div>
