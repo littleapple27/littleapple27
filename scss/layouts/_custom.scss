@@ -63,6 +63,14 @@ span.highlight-green {
   );
 }
 
+span.highlight-yellow-dark {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0) 45%,
+    $lad-yellow-light 45%,
+    $lad-yellow-light
+  );
+}
+
 // #dancing-avatar {
 //   position: relative;
 //   z-index: 2;
@@ -106,6 +114,10 @@ background-color: #eef1e9;
    background-color: transparent!important;
  }
 
+ .card-text {
+  @include font-size(.85rem);
+ }
+
  #form-message-warning, 
  #form-message-success {
   display: none; 
@@ -141,3 +153,6 @@ footer > p {
     @include font-size(1rem);
   }
 }
+
+
+
