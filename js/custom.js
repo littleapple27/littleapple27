@@ -1,5 +1,10 @@
 $(function () {
 
+  // Navbar Collapse
+  $(".navbar-collapse a").click(function () {
+    $(".navbar-collapse").collapse("hide");
+  });
+
   //ReCaptcha
   function onSubmit(token) {
     document.getElementById("contact-form").submit();
