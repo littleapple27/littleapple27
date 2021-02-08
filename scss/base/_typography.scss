@@ -1,16 +1,57 @@
-@import "_variables";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@700&family=Montserrat&family=Roboto+Slab:wght@700&display=swap');
 
-.text-green {
-    color: $lad-green;
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: $lad-heading-font;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    -moz-hyphens: manual;
 }
 
-.text-yellow-light {
-    color: $lad-yellow-light;
+p, .lead {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.text-yellow-dark {
-    color: $lad-yellow-dark;
+.nav-link, .navbar-brand {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    @include font-size(.85rem);
 }
-.font-weight-900 {
-    font-weight: 900;
+
+.text-gray-600 {
+    color: $gray-600;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Roboto', sans-serif;
+    color: $purple-300;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Roboto', sans-serif;
+    color: $purple-300;
+
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Roboto', sans-serif;
+    color: $purple-300;
+
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: 'Roboto', sans-serif;
+    color: $purple-300;
+
+  }

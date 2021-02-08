@@ -29,21 +29,15 @@ body {
 }
 
 .hr {
-  border-top: 5px solid $lad-green !important;
+  border-top: 5px solid $lad-primary-alt !important;
   width: 35%;
   opacity: 0.75 !important;
 }
 
-.underline {
-   border-top: 5px solid $lad-green !important;
-   opacity: 0.75 !important;
-   margin: 0 8rem;
-}
 
 .divider {
    width: 129px;
    height: 5px;
-   background: $lad-green;
 }
 
 .hr-white {
@@ -58,36 +52,20 @@ body {
 span.highlight-green {
   background: linear-gradient(
     rgba(255, 255, 255, 0) 45%,
-    $lad-green-alpha 45%,
-    $lad-green-alpha
+    $lad-primary-alpha-50 45%,
+    $lad-primary-alpha-50
   );
 }
 
 span.highlight-yellow-dark {
   background: linear-gradient(
     rgba(255, 255, 255, 0) 45%,
-    $lad-yellow-light 45%,
-    $lad-yellow-light
+    $lad-warning-light 45%,
+    $lad-warning-light
   );
 }
 
-// .underline--magical {
-//   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-//   background-repeat: no-repeat;
-//   background-size: 100% 0.2em;
-//   background-position: 0 88%;
-//   transition: background-size 0.25s ease-in;
-//   &:hover {
-//     background-size: 100% 88%;
-//   }
-// }
 
-
-
-
-// section {
-//    height: 100vh;
-// }
 
 #about-img-m {
   position: absolute;
@@ -136,10 +114,10 @@ footer > p {
   background:  transparent;
   text-decoration: none;
   i, div {
-    color: $lad-green-alpha;  
+    color: $lad-primary-alpha-50;  
   }
   &:hover i, div {
-    color: $lad-green;
+    color: $lad-primary;
   }
   div {
     @include font-size(0.75rem);
@@ -148,6 +126,25 @@ footer > p {
     @include font-size(1rem);
   }
 }
+
+
+
+.jumbotron{
+  position: absolute;
+  z-index:-101;
+}
+
+#video-background { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width:100%;
+}
+
 
 
 

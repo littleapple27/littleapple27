@@ -1,6 +1,20 @@
 //Colors
-$lad-green:#80a646;
-$lad-green-alpha:rgba(128, 166, 70, 0.5);
-$lad-yellow-dark: #f1b24a;
-$lad-yellow-light: #ebd1a8;
-$bg-green-light: #eef1e9;
+$lad-primary:#8FA63F;
+$lad-primary-alpha-50:rgba(144, 166, 63, 0.5);
+$lad-primary-alt: #d6d982;
+$lad-primary-alt-alpha-50: rgba(214, 217, 130, 0.5);
+$lad-secondary:rgb(60, 99, 115);
+$lad-secondary-alt: #6da0a6;
+$lad-danger: #732C26;
+$lad-danger-light: #6e4f4c;
+$lad-warning: #f1b24a;
+$lad-warning-alpha-50:rgba(241, 177, 74, 0.5);
+$lad-warning-light: #ebd1a8;
+
+
+//Fonts
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@700&family=Montserrat:wght@200&family=Roboto+Slab:wght@700&display=swap');
+
+$lad-heading-font: 'Roboto Slab', serif;
+$lad-body-font: 'Montserrat', sans-serif;

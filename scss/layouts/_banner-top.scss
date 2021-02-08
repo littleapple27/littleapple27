@@ -1,10 +1,12 @@
 #banner-top {
-    font-size: .65rem;
+    font-family: 'Montserrat', sans-serif; 
+    @include font-size(12px);
     letter-spacing: 1px;
+    font-style: italic;
     a {
-      color:$lad-yellow-light!important;
+      color:$lad-warning-light!important;
     }
     a:hover {
-      color: $lad-yellow-dark!important; 
+      color: $lad-warning-light!important; 
     }
   }

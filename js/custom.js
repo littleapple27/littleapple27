@@ -1,5 +1,4 @@
 $(function () {
-
   // Navbar Collapse
   $(".navbar-collapse a").click(function () {
     $(".navbar-collapse").collapse("hide");

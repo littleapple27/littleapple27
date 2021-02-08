@@ -1,18 +1,42 @@
 
+.navbar {
+  background-color: $lad-secondary;
+}
+
+#brand-name {
+  font-family: $lad-body-font;
+  font-weight: 200;
+}
+#brand-name span {
+  color: $lad-primary-alt;
+  font-weight: 900;
+}
+
+.nav-link {
+  font-family: $lad-body-font;
+}
+
 .navbar-nav .nav-link span {
-  background-image: linear-gradient(120deg, $lad-green-alpha 0%, $lad-green-alpha 100%);
+  background-image: linear-gradient(120deg, $lad-primary-alt-alpha-50 0%, $lad-primary-alt-alpha-50 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
+  color: #fff;
   transition: background-size 0.25s ease-in;
-  font-weight: 900!important;
+  font-weight: 200!important;
     &:hover {
-      background-size: 100% 50%;
-    }
-    &:active, &:focus {
-      transition: none;
       background-size: 100% 50%;
     }
   }
 
 
+
+  .navbar-collapse ul {
+      background-color: $lad-secondary-alt;
+  }
+
+  @include media-breakpoint-up(md) { 
+    .navbar-collapse ul {
+      background-color: transparent;
+    }
+   }

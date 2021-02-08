@@ -1,5 +1,19 @@
-.slanted {
-  padding: 8rem 0;
-  background: linear-gradient(165deg, rgba(118, 166, 70, 0.05) 50%, #fff 50%);
+#masthead {
+  min-height: 65vh;
+  background-color: $lad-secondary;
 }
+
+.typewrite {
+  color: $lad-primary-alt;  
+}
+
+#masthead .divider {
+  background-color: $lad-primary-alt;
+}
+
+// .slanted {
+//   padding: 8rem 0;
+//   background: linear-gradient(165deg, rgba(118, 166, 70, 0.05) 50%, #fff 50%);
+//   background-attachment: fixed;
+// }
 

@@ -105,24 +105,24 @@
 
   <body class="d-flex flex-column h-100" id="top-of-page">
     <header id="menu">
-    <div class="container-fluid bg-dark text-white text-uppercase text-center p-2" id="banner-top">
+    <div class="container-fluid bg-dark text-white text-center p-2" id="banner-top">
       <div class="wow animate__slideInUp" data-wow-duration="2s">
         <span>Now Seeking opportunities in web & mobile application development. </span>
       <span>Interested?&nbsp;<a class="text-white-50" href="#contact">Contact me today!</a></span></a></div>
     </div>
-      <nav class="navbar navbar-light shadow navbar-expand-md">
-        <div class="container-fluid">
+      <nav class="navbar navbar-dark shadow navbar-expand-md py-0">
+        <div class="container-fluid p-0">
           <a
             class="navbar-brand d-flex align-items-center ps-3"
             href="https://littleapple27.dev"
           >
-            <img
+            <img id="brand-image"
               src="img/icons/lilapple-logo.png"
               alt="Little Apple 27 Development logo"
               width="25"
               height="auto"
             />
-            <span class="mt-1 ms-2">littleapple27<span class="text-green font-weight-bold">.dev</span></span>
+            <span class="mt-1 ms-2" id="brand-name">littleapple27<span>.dev</span></span>
           </a>
           <button
             class="navbar-toggler border-0"
@@ -135,14 +135,11 @@
           >
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse px-3" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0 px-3">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link "
                   aria-current="page"
                   href="#tech-profile"
                   ><span>Technical Profile</span></a
@@ -150,7 +147,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
                   href="#portfolio"
                   ><span>Portfolio</span></a
@@ -169,7 +166,6 @@
       </nav>
     </header>
 
-    <main>
       <a
         href="#top-of-page"
         class="text-center"
@@ -178,22 +174,22 @@
         title="Go to top"
       >
         <div class="mb-n3">Scroll to Top</div>
-        <i class="fas fa-chevron-circle-up text-green"></i>
+        <i class="fas fa-chevron-circle-up text-primary"></i>
       </a>
 
-      <section class="slanted">
+      <section class="py-3" id="masthead">
         <div class="container px-4 px-md-3">
           <div class="row d-flex align-items-lg-center">
             <div
-              class="col-md-8 order-2 order-md-1 col-lg-5 offset-lg-2 text-center text-md-start wow animate__fadeIn"
+              class="col-md-9 order-2 order-md-1 col-lg-6 offset-lg-1 text-white text-center text-md-start wow animate__fadeIn"
               data-wow-duration="2s"
             >
               <h1 class="display-1">Hello,</h1>
-              <p class="typewrite lead display-6" data-period="2000" data-type='[ "I am a web developer.*", "I am a mother.", "I am a hiker.", "I am a bird watcher.", "I am always evolving.", "I am many things." ]'>
+              <p class="lead display-6"> I am <span class="typewrite" data-period="2000" data-type='[ "a web developer.*", "a mother.", "a hiker.",  "always evolving.", "many things." ]'></span>
                     <span class="wrap"></span>
               </p>
               <div class="divider mx-auto mx-md-0"></div>
-              <p class="small mt-3 text-gray-600">
+              <p class="small mt-3 text-white-50">
                 <span class="text-uppercase"
                   ><strong>Master in Professional Studies</strong></span
                 ><br />
@@ -234,7 +230,7 @@
       <section class="container-fluid" id="tech-profile">
         <div class="row d-flex align-items-end">
           <div
-            class="col-6 col-md-10 mx-auto py-5 wow animate__fadeIn"
+            class="col-6 col-md-10 mx-auto pt-5 mb-3 wow animate__fadeIn"
             data-wow-duration="2s"
           >
             <div
@@ -253,7 +249,6 @@
               <i class="fab fa-git-alt me-2 mb-3"></i>
               <i class="fab fa-github me-2 mb-3"></i>
             </div>
-            <div class="divider mx-auto"></div>
           </div>
 
           <div class="col-8 mx-auto mb-5 text-center">
@@ -262,6 +257,7 @@
               am a certified full stack web developer. Below are some of the
               projects I developed while learning to code.
             </p>
+            <div class="divider mx-auto"></div>
             <!-- <p class="text-green">
               I have a balanced understanding of modern technologies used in the web and mobile development landscape. I am fluent in various coding languages, technical appoaches, with a deep understaning of the ## paradigm. 
             </p> -->
@@ -480,7 +476,11 @@
         </div>
       </section>
 
-      <section class="bg-section py-5">
+      <section>
+        <h1>Other skills</h1>
+      </section>
+
+      <section class="bg-teal-dark text-white py-5" id="feature">
         <div
           class="col-md-8 col-10 mx-auto text-center mb-5 wow animate__fadeIn"
           data-wow-duration="2s"
@@ -522,7 +522,7 @@
         </div>
       </section>
 
-      <section class="container bg-light">
+      <section class="container-fluid bg-light">
         <div class="row">
           <div class="col-8 col-md-4 me-auto mt-n5">
             <img
@@ -545,8 +545,10 @@
           </div>
         </div>
       </section>
+      
+    
 
-      <section class="container-fluid py-5 bg-light">
+      <section class="container-fluid pt-5 bg-light" id="about">
         <div class="row">
           <div
             class="col-11 col-md-8 mx-auto bg-section px-5 pt-5 pb-0 wow animate__fadeIn"
@@ -585,8 +587,8 @@
                 <img
                   src="img/avatarwithapple.png"
                   alt="Little apple avatar eating an apple."
-                  width="150px"
-                  height="150px"
+                  width="200px"
+                  height="200px"
                 />
               </div>
           </div>
@@ -594,7 +596,7 @@
       </section>
 
       <section
-        class="container-fluid py-5 bg-light"
+        class="container-fluid py-5"
         id="contact"
       >
         <!-- Section Title -->
@@ -689,7 +691,7 @@
       </section>
     </main>
 
-    <footer class="text-center py-3 mt-auto bg-dark text-white-50">
+    <footer class="text-center py-3 mt-auto text-white-50">
       <p class="text-uppercase">
         Copyright &copy; 2017-
         <script>
