@@ -73,7 +73,7 @@
 <body class="d-flex flex-column h-100 lad-gradient">
 
     <header id="menu">
-        <nav class="navbar navbar-expand-lg navbar-dark shadow">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="https://littleapple27.dev">
                     <img src="img/icons/lilapple-logo.png" alt="Little Apple 27 Development logo" width="50" height="auto">
@@ -108,7 +108,7 @@
                 <p class="lead text-white">I am a Full Stack Developer.</p>
                 <hr />
                 <p>
-                    <a href="#" class="btn bg-pink-dark my-2"><i class="far fa-envelope me-2"></i>Email Me</a>
+                    <a href="#" class="btn bg-primary my-2"><i class="far fa-envelope me-2"></i>Email Me</a>
                     <a href="#" class="btn btn-secondary my-2">View Projects</a>
                 </p>
             </div>

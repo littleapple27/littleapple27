@@ -1,12 +1,17 @@
+
 .navbar-nav .nav-link span {
-  background-image: linear-gradient(120deg, $lad-yellow-light 0%, $lad-yellow-light 100%);
+  background-image: linear-gradient(120deg, $lad-green-alpha 0%, $lad-green-alpha 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
   transition: background-size 0.25s ease-in;
-    font-weight: 900!important;
+  font-weight: 900!important;
     &:hover {
-      background-size: 100% 88%;
+      background-size: 100% 50%;
+    }
+    &:active, &:focus {
+      transition: none;
+      background-size: 100% 50%;
     }
   }
 
