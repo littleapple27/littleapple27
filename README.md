@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am a Front End Engineer with entrepreneurial disposition who pairs capabilities in front end development with strong marketing, advertising, business, and client relations background. My areas of special interest and proficiency include UI/UX, usability, React, Redux, Tailwind/Bootstrap, JavaScript, e2e testing with Cypress.  I am perceptive and highly adaptable to new concepts and technologies in the web development ecosystem.  Connect with me on [LinkedIn] (https://linkedin.com/in/andreamlegleiter/)
+I am a Front End Engineer with entrepreneurial disposition who pairs capabilities in front end development with strong marketing, advertising, business, and client relations background. My areas of special interest and proficiency include UI/UX, usability, React, Redux, Tailwind/Bootstrap, JavaScript, e2e testing with Cypress.  I am perceptive and highly adaptable to new concepts and technologies in the web development ecosystem.  Check out and connect with me on LinkedIn. (https://linkedin.com/in/andreamlegleiter/)
 
 <!--
 **littleapple27/littleapple27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
